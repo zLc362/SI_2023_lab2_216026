@@ -16,17 +16,17 @@ if (user==null || user.getPassword()==null || user.getEmail()==null)
 
 user = null\
 user.getPassword() = X\
-user.getEmail() = X\
+user.getEmail() = X
 
 
 user != null\
 user.getPassword() = null\
-user.getEmail() = X\
+user.getEmail() = X
 
 
 user != null\
 user.getPassword() != null\
-user.getEmail() = null\
+user.getEmail() = null
 
 
 user != null\
