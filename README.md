@@ -10,20 +10,33 @@ Stefan Pocev 216026
 
 5.
 if (user==null || user.getPassword()==null || user.getEmail()==null)
+
 Може со 4 тест слујаи
 
+
 user = null
+
 user.getPassword() = X
+
 user.getEmail() = X
 
+
 user != null
+
 user.getPassword() = null
+
 user.getEmail() = X
 
+
 user != null
+
 user.getPassword() != null
+
 user.getEmail() = null
 
+
 user != null
+
 user.getPassword() != null
+
 user.getEmail() != null
